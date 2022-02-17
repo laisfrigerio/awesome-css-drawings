@@ -1,0 +1,16 @@
+body {
+  background: #e6e6e6;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: -100px;
+}
+
+.logomark-windows {
+  height: 100px;
+  width: 100px;
+  background: #f35325;
+  box-shadow: 105px 105px 0px 0px #f9ba09, 0 105px 0 0 #39a6f0, 105px 0px 0px 0 #81bc04, 0px 0px 0px 0px transparent;
+}
