@@ -1,16 +1,59 @@
-body {
-  background: #e6e6e6;
+*, :before, :after {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  background: #2f2d2d;
   height: 100vh;
-  margin-left: -100px;
 }
 
-.logomark-windows {
+ul {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #2f2d2d;
+  border: 1px solid #3e3b3b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.list-drawings {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 768px;
+  margin: 250px auto 0;
+  padding: 0 15px;
+}
+
+.logomark-microsoft {
   height: 100px;
   width: 100px;
   background: #f35325;
-  box-shadow: 105px 105px 0px 0px #f9ba09, 0 105px 0 0 #39a6f0, 105px 0px 0px 0 #81bc04, 0px 0px 0px 0px transparent;
+  box-shadow: 105px 105px 0px 0px #f9ba09, 
+              0 105px 0 0 #39a6f0, 
+              105px 0px 0px 0 #81bc04, 
+              0px 0px 0px 0px transparent;
+  margin: -100px;
+}
+
+.microsoft {
+  height: 130px;
+  position: relative;
+}
+
+.logo-name {
+  position: absolute;
+  bottom: -5px;
+  left: -30px;
+  font-family: sans-serif;
+  color: #888585;
 }
