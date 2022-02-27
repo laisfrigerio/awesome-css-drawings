@@ -3,7 +3,7 @@
 - Windows logomark
 
 <p align="center">
-  <a><img src="./screenshots/microsoft-logo.png" alt="Microsoft logomark made with pure css" title="Microsoft logomark made with pure css"></a>
+  <a><img src="./screenshots/main-screen.png" alt="List all draw made with pure css" title="List all draw made with pure css"></a>
 </p>
 
 ## 👩 Author
