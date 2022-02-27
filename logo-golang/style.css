@@ -1,0 +1,261 @@
+body {
+  background: #dfdfdf;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.golang {
+  position: relative;
+  height: 330px;
+  width: 205px;
+}
+
+.orelhas {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+
+.orelha {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #45cedd;
+  border: 3px solid #000102;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.orelha-left {
+  right: 0;
+}
+
+.orelha-left:after,
+.orelha-right:after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  height: 15px;
+  width: 15px;
+  background: #000102;
+  border-radius: 50%;
+  left: 13px;
+}
+
+.orelha-left:after {
+  top: 12px;
+}
+
+.orelha-right:after {
+  top: 11px;
+}
+
+.body {
+  position: absolute;
+  height: 320px;
+  width: 200px;
+  background: #03cede;
+  border-radius: 75px;
+  border: 3px solid #000102;
+  z-index: 0;
+}
+
+.eyes {
+  width: 100%;
+  display: flex;
+  margin-top: 28px;
+  gap: 16px;
+  justify-content: center;
+}
+
+.eye {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #000102;
+  position: relative;
+}
+
+.eye-right:before,
+.eye-right:after,
+.eye-left:before,
+.eye-left:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.eye-right:before,
+.eye-left:before {
+  height: 20px;
+  width: 20px;
+  background: #000;
+  top: 15px;
+  left: 5px;
+}
+
+.eye-right:after,
+.eye-left:after {
+  height: 4px;
+  width: 4px;
+  background: #fff;
+  top: 25px;
+  left: 20px;
+}
+
+.nariz {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 15;
+}
+
+.nariz:after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  width: 43px;
+  height: 16px;
+  background: #fed5a0;
+  border-radius: 50%;
+  border: 3px solid #000;
+}
+
+.nariz-circle {
+  width: 25px;
+  height: 15px;
+  background: #000;
+  border-radius: 50%;
+  transform: rotate(350deg);
+  z-index: 10;
+}
+
+.dentinhos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.dente {
+  width: 10px;
+  height: 23px;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+.dente:not(:first-child) {
+  margin-left: -3px;
+}
+
+.bracos {
+  width: inherit;
+  position: relative;
+  z-index: -1;
+  top: 125px;
+}
+
+.pe,
+.braco {
+  content: "";
+  width: 30px;
+  height: 10px;
+  background: #fbd5a0;
+  position: absolute;
+  top: 30px;
+  border: 3px solid #000;
+  left: -18px;
+  z-index: -1;
+  transform: rotate(342deg);
+  border-radius: 15px;
+}
+
+.braco-right:after,
+.braco-left:after {
+  content: "";
+  position: absolute;
+  background-color: #fed5a0;
+  border-radius: 50%;
+}
+
+.braco-left:after {
+  top: 38px;
+  width: 11px;
+  height: 11px;
+  left: -7px;
+}
+
+.braco-right:after {
+  top: 37px;
+  width: 13px;
+  height: 13px;
+  left: -5px;
+}
+
+.braco-right .braco:not(:first-child),
+.braco-left .braco:not(:first-child) {
+  top: 40px;
+  background-color: #fbd5a0;
+}
+
+.braco-right {
+  right: -20px;
+  left: initial;
+  position: absolute;
+  transform: rotate(25deg);
+}
+
+.pes {
+  width: inherit;
+  position: relative;
+  z-index: -1;
+  bottom: -320px;
+}
+
+.pe {
+  top: -15px;
+}
+
+.pe-left {
+  left: 50px;
+  position: absolute;
+  transform: rotate(315deg);
+}
+
+.pe-right:after,
+.pe-left:after {
+  content: "";
+  position: absolute;
+  background-color: #fed5a0;
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+}
+
+.pe-left:after {
+  left: -10px;
+  top: -8px;
+}
+
+.pe-right:after {
+  left: inherit;
+  right: -9px;
+  top: -11px;
+}
+
+.pe-right {
+  position: absolute;
+  left: inherit;
+  right: 50px;
+  transform: rotate(65deg);
+}
+
+.pe-left .pe:not(:first-child),
+.pe-right .pe:not(:first-child) {
+  top: -5px;
+}
