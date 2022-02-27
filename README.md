@@ -1,10 +1,12 @@
 # Awesome drawings made with Pure CSS
 
-- Windows logomark
-
 <p align="center">
   <a><img src="./screenshots/main-screen.png" alt="List all draw made with pure css" title="List all draw made with pure css"></a>
 </p>
+
+- [x] Incrível Hulk
+- [x] Logo Microsoft
+- [x] Logo Submarino
 
 ## 👩 Author
 
