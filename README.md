@@ -1,10 +1,11 @@
 # Awesome drawings made with Pure CSS
 
 <p align="center">
-  <a><img src="./screenshots/main-screen.png" alt="List all draw made with pure css" title="List all draw made with pure css"></a>
+  <a><img src="./screenshots/main-screen-golang.png" alt="List all draw made with pure css" title="List all draw made with pure css"></a>
 </p>
 
 - [x] Incrível Hulk
+- [x] Logo Golang
 - [x] Logo Microsoft
 - [x] Logo Submarino
 
