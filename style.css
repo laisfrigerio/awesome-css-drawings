@@ -39,13 +39,14 @@ header {
   max-width: 768px;
   margin: 250px auto 0;
   padding: 0 15px;
+  gap: 32px;
 }
 
 .draw {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
 }
 
 .draw img {

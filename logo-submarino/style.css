@@ -1,0 +1,92 @@
+:root {
+  --blue: #1f33ff;
+  --white: #fff;
+}
+
+*, :before, :after {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: var(--blue);
+  overflow: hidden;
+}
+
+.logo-submarino {
+  position: relative;
+  width: 100px;
+  height: 65px;
+}
+
+.top,
+.top:before,
+.top:after,
+.bottom,
+.bottom:before,
+.bottom:after {
+  position: absolute;
+  background-color: var(--white);
+}
+
+.top:before,
+.top:after,
+.bottom:before,
+.bottom:after {
+  content: "";
+}
+
+.bottom {
+  height: 30px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+.bottom:before {
+  height: 22px;
+  width: 8px;
+  top: 5px;
+  left: -10px;
+  border-radius: 5px;
+}
+
+.bottom:after {
+  height: 7px;
+  width: 10px;
+  top: 13px;
+  left: -5px;
+  border-radius: 5px;
+}
+
+.top {
+  height: 15px;
+  width: 40px;
+  top: -10px;
+  left: 29px;
+  border-radius: 30px;
+}
+
+.top:before {
+  height: 20px;
+  width: 8px;
+  top: -17px;
+  left: 15px;
+  border-top-left-radius: 5px;
+}
+
+.top:after {
+  height: 7px;
+  width: 11px;
+  top: -17px;
+  left: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
