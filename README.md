@@ -4,10 +4,11 @@
   <a><img src="./screenshots/main-screen-golang.png" alt="List all draw made with pure css" title="List all draw made with pure css"></a>
 </p>
 
-- [x] Incrível Hulk
+- [x] Incrível Hulk | [Vídeo no youtube](https://youtu.be/L3LXwqVMuAE)
 - [x] Logo Golang
-- [x] Logo Microsoft
-- [x] Logo Submarino
+- [x] Logo Microsoft | [Vídeo no youtube](https://youtu.be/bmjUBZo4fv0)
+- [x] Logo Submarino | [Vídeo no youtube](https://youtu.be/45GOzxF2v8A)
+- [x] Pixel Art - Heart | [Vídeo no youtube](https://youtu.be/FR1l-1LKjqE)
 
 ## 👩 Author
 
