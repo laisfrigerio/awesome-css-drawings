@@ -1,7 +1,7 @@
 # Awesome drawings made with Pure CSS
 
 <p align="center">
-  <a><img src="./screenshots/main-screen-golang.png" alt="List all draw made with pure css" title="List all draw made with pure css"></a>
+  <a><img src="./screenshots/main-screen-pixel-art-heart.png" alt="List all draw made with pure css" title="List all draw made with pure css"></a>
 </p>
 
 - [x] Incrível Hulk | [Vídeo no youtube](https://youtu.be/L3LXwqVMuAE)
