@@ -1,5 +1,6 @@
 :root {
   --primary: #2f2d2d;
+  --secondary: #1d887a;
   --border: #3e3b3b;
   --white: #fff;
   --default-text: #888585;
@@ -10,6 +11,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
   
 body {
@@ -37,8 +39,8 @@ header {
   flex-wrap: wrap;
   max-width: 768px;
   margin: 250px auto 0;
-  padding: 0 15px;
-  gap: 32px;
+  padding: 0 15px 30px;
+  gap: 48px;
 }
 
 .draw {
@@ -56,6 +58,15 @@ header {
 }
 
 .draw-name {
-  font-family: sans-serif;
   color: var(--default-text);
+}
+
+.draw-youtube-video {
+  text-decoration: none;
+  color: var(--secondary);
+  margin-top: -10px;
+}
+
+.draw-youtube-video:hover {
+  text-decoration: underline;
 }
